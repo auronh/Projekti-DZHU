@@ -29,8 +29,14 @@ header {
   z-index: 100;
 }
 
-header h1 {
+header a {
   color: var(--accent);
+}
+
+.logo{
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 nav a {
@@ -135,4 +141,23 @@ nav a:hover {
 .movie-info span {
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: var(--muted);
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h2 {
+    font-size: 2.2rem;
+  }
 }
