@@ -18,6 +18,10 @@ body {
   color: var(--text);
 }
 
+a{
+  text-decoration: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -149,6 +153,17 @@ footer {
   background: #020617;
   color: var(--muted);
   margin-top: 40px;
+}
+
+#contact{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form{
+  text-align: center;
 }
 
 @media (max-width: 768px) {
