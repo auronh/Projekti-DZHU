@@ -14,6 +14,7 @@
 }
 
 body {
+  min-height: 100vh;
   background: var(--bg);
   color: var(--text);
 }
@@ -155,16 +156,6 @@ footer {
   margin-top: 40px;
 }
 
-#contact{
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.contact-form{
-  text-align: center;
-}
 
 @media (max-width: 768px) {
   header {
@@ -175,22 +166,4 @@ footer {
   .hero h2 {
     font-size: 2.2rem;
   }
-}
-
-#login{
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-#register{
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
